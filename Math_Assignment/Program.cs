@@ -10,41 +10,47 @@ namespace Math_Assignment
         static void Main(string[] args)
         {
             // Person 
-            int a, b;
-            Console.Write("Anonymous Income Comparison Program: ");
+            int num1, num2, sum;
+            Console.WriteLine("Anonymous Income Comparison Program: ");
             Console.WriteLine("Person 1");
             Console.WriteLine("Hourly Rate");
-            a = int.Parse(Console.ReadLine());
+            num1 = Convert.ToInt32(Console.ReadLine());           
             Console.WriteLine("Hours Wroked?");
-            b = int.Parse(Console.ReadLine());
+            num2 = Convert.ToInt32(Console.ReadLine());
+            
 
             //Person 2
-            int c, d;
+            int num3, num4, total;
             Console.WriteLine("Person 2");
             Console.WriteLine("Hourly Rate");
-            c = int.Parse(Console.ReadLine());
+            num3 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Hours Wroked?");
-            d = int.Parse(Console.ReadLine());
+            num4 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("The annual salary of Person 1 is { } * { } : { } ", a, b, a * b);
-
-
-            
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
+            Console.WriteLine("Annual Salary of Person 1 is: ");
+            sum = num1 * num2;
+            Console.Write(num1 * num2);
             Console.ReadLine();
+
+            Console.WriteLine("Annual Salary of Person 2 is: ");
+            total = num3 * num4;
+            Console.Write(num3 * num4);
+            Console.ReadLine();
+            
+            Console.WriteLine("Does Person 1 make more money than Person 2?");
+            int person1 = num1 * num2;
+            int person2 = num3 * num4;
+
+            bool tf = person1 >= person2;
+            Console.Write(tf);
+            Console.ReadLine();
+            
+
+           
+            
+
+
+            
 
         }
     }
