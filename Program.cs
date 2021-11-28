@@ -41,13 +41,6 @@ class Program
         Console.WriteLine("your total hours studied is: " + hoursStudied);//user inputs their total number hours studied and the program outputs a string + user input 
 
         Console.WriteLine("Thank you for your answers. An instructor will respond to this shortly. Have a great day!");//Last message to user after all questions have been answered
-
-
-
-
-
-
-
         Console.ReadLine();
         
     }
