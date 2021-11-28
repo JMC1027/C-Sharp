@@ -1,0 +1,7 @@
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Math_Assignment\bin\Debug\Math_Assignment.exe.config
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Math_Assignment\bin\Debug\Math_Assignment.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Math_Assignment\bin\Debug\Math_Assignment.pdb
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Math_Assignment\obj\Debug\Math_Assignment.csproj.AssemblyReference.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Math_Assignment\obj\Debug\Math_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Math_Assignment\obj\Debug\Math_Assignment.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Math_Assignment\obj\Debug\Math_Assignment.pdb
