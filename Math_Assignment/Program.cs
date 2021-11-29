@@ -11,13 +11,14 @@ namespace Math_Assignment
         {
              // Person 
             int num1, num2, num3, sum;
+                      
             Console.WriteLine("Anonymous Income Comparison Program: "); 
             Console.WriteLine("Person 1");
             Console.WriteLine("Hourly Rate");
             num1 = Convert.ToInt32(Console.ReadLine()); //lets user input their own data           
-            Console.WriteLine("Hours Wroked?");
+            Console.WriteLine("Hours Worked?");
             num2 = Convert.ToInt32(Console.ReadLine()); //same as above
-            Console.WriteLine("Weeks Wroked?");
+            Console.WriteLine("Weeks Worked?");
             num3 = Convert.ToInt32(Console.ReadLine()); // same as above
              
             
@@ -27,9 +28,9 @@ namespace Math_Assignment
             Console.WriteLine("Person 2");
             Console.WriteLine("Hourly Rate");
             num4 = Convert.ToInt32(Console.ReadLine()); // all the same as the above
-            Console.WriteLine("Hours Wroked?");
+            Console.WriteLine("Hours Worked?");
             num5 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Weeks Wroked?");
+            Console.WriteLine("Weeks Worked?");
             num6 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Annual Salary of Person 1 is: ");
