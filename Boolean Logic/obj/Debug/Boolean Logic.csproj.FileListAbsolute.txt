@@ -1,0 +1,7 @@
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Boolean Logic\obj\Debug\Boolean Logic.csproj.AssemblyReference.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Boolean Logic\obj\Debug\Boolean Logic.csproj.CoreCompileInputs.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Boolean Logic\bin\Debug\Boolean Logic.exe.config
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Boolean Logic\bin\Debug\Boolean Logic.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Boolean Logic\bin\Debug\Boolean Logic.pdb
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Boolean Logic\obj\Debug\Boolean Logic.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Boolean Logic\obj\Debug\Boolean Logic.pdb
