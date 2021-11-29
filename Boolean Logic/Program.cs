@@ -41,27 +41,7 @@ namespace Boolean_Logic
             Console.WriteLine("Does The applicant qualify to continue the application process?");
             bool qualified = ((age > 15) && !hasDUI && (numTickets <= 3)); //bool expression compared to user input (Will return True or False)
             Console.WriteLine(qualified);
-            
-            
-            
-            
-            
-            
-            
-
-
-          
-
-
-
-
-
-
-
-
-
-
-
+  
             Console.ReadLine();
 
         }
