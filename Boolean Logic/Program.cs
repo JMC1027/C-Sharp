@@ -26,12 +26,14 @@ namespace Boolean_Logic
             {
                 Console.WriteLine("You do have a DUI");
                 hasDUI = true; //returns true 
-            } else if (DUI == "False")
+            } 
+            else if (DUI == "False")
             {
                 Console.WriteLine("You do not have a DUI");
                 hasDUI = false; // returns false 
 
-            } else
+            } 
+            else
             {
                 Console.WriteLine("Please answer True or False");// returns message saying " Please answer true or false
             }
