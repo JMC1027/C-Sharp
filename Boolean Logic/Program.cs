@@ -19,25 +19,28 @@ namespace Boolean_Logic
             int age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Have you ever had a DUI? Answer True/False");
             string DUI = Console.ReadLine();
-            bool hasDUI = false; //bool variable 
+            bool hasDUI = true; //bool variable 
             
                   
             if (DUI == "True")
             {
                 Console.WriteLine("You do have a DUI");
-                hasDUI = true; //returns true 
+                //hasDUI = true; //returns true 
             } 
             else if (DUI == "False")
             {
                 Console.WriteLine("You do not have a DUI");
-                hasDUI = false; // returns false 
+                //hasDUI = false; // returns false 
 
             } 
             else
             {
                 Console.WriteLine("Please answer True or False");// returns message saying " Please answer true or false
+               
             }
-            Console.WriteLine(hasDUI);   
+
+            bool dui = !hasDUI && hasDUI;
+            //Console.WriteLine(hasDUI);   
             Console.WriteLine("How many speeding tickets do you have?");
             int numTickets = Convert.ToInt32(Console.ReadLine()); //ticket number variable converted to int, user input 
             Console.WriteLine("Does The applicant qualify to continue the application process?");
