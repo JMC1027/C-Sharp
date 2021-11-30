@@ -36,7 +36,7 @@ namespace Boolean_Logic
             {
                 Console.WriteLine("Please answer True or False");// returns message saying " Please answer true or false
                
-            }
+            }   
 
            
             //Console.WriteLine(hasDUI);   

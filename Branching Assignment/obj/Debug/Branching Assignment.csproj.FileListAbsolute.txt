@@ -1,0 +1,7 @@
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Branching Assignment\bin\Debug\Branching Assignment.exe.config
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Branching Assignment\bin\Debug\Branching Assignment.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Branching Assignment\bin\Debug\Branching Assignment.pdb
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Branching Assignment\obj\Debug\Branching Assignment.csproj.AssemblyReference.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Branching Assignment\obj\Debug\Branching Assignment.csproj.CoreCompileInputs.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Branching Assignment\obj\Debug\Branching Assignment.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Branching Assignment\obj\Debug\Branching Assignment.pdb
