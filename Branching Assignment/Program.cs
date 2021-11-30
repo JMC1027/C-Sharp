@@ -10,8 +10,6 @@ namespace Branching_Assignment
     {
         static void Main(string[] args)
         {
-            
-
             Console.WriteLine("Welcome to Packge Express");
             Console.WriteLine("What is your packages weight?");
             int weight = Convert.ToInt32(Console.ReadLine());
@@ -28,8 +26,6 @@ namespace Branching_Assignment
             int height = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("What is your packages length?");
             int length = Convert.ToInt32(Console.ReadLine());
-
-
             int packageTotal = height * length * width / 100; //variable = math equation to calculate package cost 
             int totalSize = 50;
 
