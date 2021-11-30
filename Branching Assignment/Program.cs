@@ -26,7 +26,10 @@ namespace Branching_Assignment
             int height = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("What is your packages length?");
             int length = Convert.ToInt32(Console.ReadLine());
-            int packageTotal = height * length * width / 100; //variable = math equation to calculate package cost 
+
+
+
+            int packageTotal = height * length * width * weight / 100; //variable = math equation to calculate package weight 
             int totalSize = 50;
 
             if (packageTotal > totalSize)
