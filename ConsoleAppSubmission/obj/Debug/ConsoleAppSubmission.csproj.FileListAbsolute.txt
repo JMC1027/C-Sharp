@@ -1,0 +1,7 @@
+C:\Users\jmcke\Documents\GitHub\C-Sharp\ConsoleAppSubmission\obj\Debug\ConsoleAppSubmission.csproj.CoreCompileInputs.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\ConsoleAppSubmission\bin\Debug\ConsoleAppSubmission.exe.config
+C:\Users\jmcke\Documents\GitHub\C-Sharp\ConsoleAppSubmission\bin\Debug\ConsoleAppSubmission.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\ConsoleAppSubmission\bin\Debug\ConsoleAppSubmission.pdb
+C:\Users\jmcke\Documents\GitHub\C-Sharp\ConsoleAppSubmission\obj\Debug\ConsoleAppSubmission.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\ConsoleAppSubmission\obj\Debug\ConsoleAppSubmission.pdb
+C:\Users\jmcke\Documents\GitHub\C-Sharp\ConsoleAppSubmission\obj\Debug\ConsoleAppSubmission.csproj.AssemblyReference.cache
