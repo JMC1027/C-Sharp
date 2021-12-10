@@ -11,10 +11,10 @@ namespace ConsoleAppSubmission
         static void Main(string[] args)
         {
             Console.WriteLine("guess a team");
-            string userInput = (Console.ReadLine().ToLower());
-            bool isGuessed = userInput == "raiders";
+            string userInput = (Console.ReadLine().ToLower()); //string variable, To.Lower automatically changes user input to lowercase 
+            bool isGuessed = userInput == "raiders"; 
 
-            do
+            do //do while statement 
             {
                 switch (userInput)
                 {
@@ -41,17 +41,16 @@ namespace ConsoleAppSubmission
                 }
 
             }
-
-
             while (!isGuessed);
-
+//--------------------------------------------------------------------------------------------//
+           
             Console.WriteLine("How many players are on the team?");
-            int numplayers = Convert.ToInt32(Console.ReadLine());
+            int numplayers = Convert.ToInt32(Console.ReadLine()); // int variable 
             bool playerCount = false;
 
-            while (!playerCount)
+            while (!playerCount) //while statement 
             {
-                if (numplayers == 55)
+                if (numplayers == 55) //number of players equals 55 
                 {
                     Console.WriteLine("You guessed correct");
                     playerCount = true;

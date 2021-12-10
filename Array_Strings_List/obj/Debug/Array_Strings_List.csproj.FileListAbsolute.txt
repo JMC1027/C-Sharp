@@ -1,0 +1,7 @@
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Array_Strings_List\bin\Debug\Array_Strings_List.exe.config
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Array_Strings_List\bin\Debug\Array_Strings_List.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Array_Strings_List\bin\Debug\Array_Strings_List.pdb
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Array_Strings_List\obj\Debug\Array_Strings_List.csproj.AssemblyReference.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Array_Strings_List\obj\Debug\Array_Strings_List.csproj.CoreCompileInputs.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Array_Strings_List\obj\Debug\Array_Strings_List.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Array_Strings_List\obj\Debug\Array_Strings_List.pdb
