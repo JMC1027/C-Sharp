@@ -1,0 +1,7 @@
+C:\Users\jmcke\Documents\GitHub\C-Sharp\List Assignment\bin\Debug\List Assignment.exe.config
+C:\Users\jmcke\Documents\GitHub\C-Sharp\List Assignment\bin\Debug\List Assignment.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\List Assignment\bin\Debug\List Assignment.pdb
+C:\Users\jmcke\Documents\GitHub\C-Sharp\List Assignment\obj\Debug\List Assignment.csproj.AssemblyReference.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\List Assignment\obj\Debug\List Assignment.csproj.CoreCompileInputs.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\List Assignment\obj\Debug\List Assignment.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\List Assignment\obj\Debug\List Assignment.pdb
