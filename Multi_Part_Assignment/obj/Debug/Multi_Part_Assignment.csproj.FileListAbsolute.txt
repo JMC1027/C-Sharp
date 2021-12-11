@@ -1,7 +1,0 @@
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Multi_Part_Assignment\bin\Debug\Multi_Part_Assignment.exe.config
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Multi_Part_Assignment\bin\Debug\Multi_Part_Assignment.exe
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Multi_Part_Assignment\bin\Debug\Multi_Part_Assignment.pdb
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Multi_Part_Assignment\obj\Debug\Multi_Part_Assignment.csproj.AssemblyReference.cache
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Multi_Part_Assignment\obj\Debug\Multi_Part_Assignment.csproj.CoreCompileInputs.cache
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Multi_Part_Assignment\obj\Debug\Multi_Part_Assignment.exe
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Multi_Part_Assignment\obj\Debug\Multi_Part_Assignment.pdb
