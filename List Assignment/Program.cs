@@ -47,25 +47,39 @@ namespace List_Assignment
             //}
             //Console.ReadLine();
 
-            List<string> newTeams = new List<string>(){ "Raiders", "Giants", "Bills", "Jets" };
-            Console.WriteLine("Please choose from the following: Raiders, Giants, Bills, Jets");          
-            string newUserInput = Console.ReadLine();
-            for (int i = 0; i < newTeams.Count; i++)
-            {
+            //List<string> newTeams = new List<string>(){ "Raiders", "Giants", "Bills", "Jets" };
+            //Console.WriteLine("Please choose from the following: Raiders, Giants, Bills, Jets");          
+            //string newUserInput = Console.ReadLine();
+            //for (int i = 0; i < newTeams.Count; i++)
+            //{
 
-                if(newTeams[i] == newUserInput)
+            //    if(newTeams[i] == newUserInput)
+            //    {
+            //        Console.WriteLine("You chose: " + newUserInput);
+            //        Console.WriteLine("This has an index of: " + i);
+            //        break;
+            //    }
+            //    if (!newTeams.Contains(newUserInput))
+            //    {
+            //        Console.WriteLine("Input is not valid");
+            //    }
+            //}
+            //Console.ReadLine();
+
+            List<string> newMusic = new List<string>() { "Country", "Rap", "EDM", "Rap" };
+            Console.WriteLine("Please choose from the following: Country, Rap, EDM");
+            string userInputTwo = Console.ReadLine();
+            for (int i = 0; i < newMusic.Count; i++)
+            {
+                if (newMusic[i] == userInputTwo)
                 {
-                    Console.WriteLine("You chose: " + newUserInput);
-                    Console.WriteLine("This has an index of: " + i);
-                    break;
+                    Console.WriteLine("You chose: " + userInputTwo);
                 }
-                else 
-                {
-                    Console.WriteLine("Input is not on the list");
+                if (!newMusic.Contains(userInputTwo)){
+                    Console.WriteLine("Input is invalid");
                 }
             }
             Console.ReadLine();
-
         }
         
 
