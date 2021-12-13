@@ -17,13 +17,13 @@ namespace Calling_Methods
             Console.WriteLine("Here is the results of your math operation: " + result);
             Console.ReadLine();
 
-            Console.WriteLine("What is a number you'd like to square?");
+            Console.WriteLine("What is a number you'd like to square?"); //calling method from program.cs
             number = Convert.ToInt32(Console.ReadLine());
             result = anum.SquareTheNumber(number);
             Console.WriteLine("Here is the results of your math operation: " + result);
             Console.ReadLine();
 
-            Console.WriteLine("What is a number you'd like to divide by 2?");
+            Console.WriteLine("What is a number you'd like to divide by 2?"); //calling method from program.cs
             number = Convert.ToInt32(Console.ReadLine());
             result = anum.DivideTheNumber(number);
             Console.WriteLine("Here is the results of your math operation: " + result);
