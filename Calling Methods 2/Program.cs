@@ -13,21 +13,24 @@ namespace Calling_Methods_2
             Integers num = new Integers();
             Console.WriteLine("Please choose any number you'd like to add to 20");
             int number1 = Convert.ToInt32(Console.ReadLine());
-            int result = num.AddTwoNumbers(number1);
+            int result = num.MathOperations(number1);
             Console.WriteLine("The total is: " + result);
             Console.ReadLine();
 
             Integers integers = new Integers(); //instantiate the class
-            integers.AddTwoNumbers(number1); //calling the method
-            Console.WriteLine(number1); //passes and displays the input int 
-            Console.ReadLine(); 
+            integers.MathOperations(number1); //calling the method
+            Console.WriteLine("The user input is: " + number1); //passes and displays the input int 
+            Console.ReadLine();
+
+            Console.WriteLine("Please enter a whole number");
+            int number2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please choose any decimal number you'd like to add to your first input");
+            decimal number3 = Decimal.Parse(Console.ReadLine());
+            Console.WriteLine(number2 * number3);
+            Console.ReadLine();
 
 
-           
-             
-           
 
-            
         }
     }
 }
