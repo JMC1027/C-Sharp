@@ -20,7 +20,7 @@ namespace Calling_Methods_2
         public int MathOperations(string number3)
         {
             int convertToInt = Convert.ToInt32(number3);
-            return convertToInt;
+            return convertToInt * 10;
         }
      
     }

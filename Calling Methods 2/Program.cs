@@ -21,10 +21,11 @@ namespace Calling_Methods_2
             
             num.MathOperations(number1); //calling the method
             Console.WriteLine("The user input is: " + number1); //passes and displays the input int 
-            
+            Console.ReadLine();
             Console.WriteLine("Pass in a decimal number");
             double number2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine(num.MathOperations(number2));
+            Console.ReadLine();
            
 
             Console.WriteLine("Pass in any word");
