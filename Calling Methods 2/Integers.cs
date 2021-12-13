@@ -12,9 +12,15 @@ namespace Calling_Methods_2
         {
             return 20 + number1;
         }
-        public int MathOperations(int number2, int number3) //psrt 3
+        public int MathOperations(double number2) //psrt 3
         {
-            return number2 * number3;
+            int convertedIntNum = Convert.ToInt32(number2);
+            return convertedIntNum * 5;
+        }
+        public int MathOperations(string number3)
+        {
+            int convertToInt = Convert.ToInt32(number3);
+            return convertToInt;
         }
      
     }
