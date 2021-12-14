@@ -15,8 +15,12 @@ namespace Calling_Methods_4
             int num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Pass in a 2nd number");
             int num2 = Convert.ToInt32(Console.ReadLine());
-            Math_Operations_Void.math(num1, num2);
+            Math_Operations_Void.math(2, 4);
             Console.ReadLine();
+
+           
+
+
         }
     }
 }

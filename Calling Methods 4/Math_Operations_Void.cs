@@ -12,6 +12,7 @@ namespace Calling_Methods_4
         {
             int x = num1 * 5;
             Console.WriteLine(num2);
+
         }
 
     
