@@ -17,10 +17,7 @@ namespace Calling_Methods_4
             int num2 = Convert.ToInt32(Console.ReadLine());
             Math_Operations_Void.math(2, 4);
             Console.ReadLine();
-
-           
-
-
+            Math_Operations_Void.math(num1: 5, num2: 6);
         }
     }
 }
