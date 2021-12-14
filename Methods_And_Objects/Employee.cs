@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Methods_And_Objects
 {
-    class Employee
+    public class Employee : Person //Class inherits from class Person 
     {
+        public int id; //Gives class emplyee property id with data type int
+        
+
+       
     }
 }

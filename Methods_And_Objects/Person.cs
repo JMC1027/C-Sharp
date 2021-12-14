@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Methods_And_Objects
 {
-    class Person
+    public class Person 
     {
-        public static void SayName()
-        {           
-            string FirstName = string.Empty;
-            string LastName = string.Empty;
+        public void SayName()
+        {
+            Console.WriteLine("Name: " + FirstName + " " + LastName); //return properties to the console 
         }
+        public string FirstName; // property first name 
+        public string LastName; // property last name
     }
 }
