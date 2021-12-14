@@ -12,11 +12,11 @@ namespace Class
         {
              num1 = 0;
              int x = num1 / 2;
-
         }
-
-            
-          
+        public void integer(int num1, int num2, int num3)
+        {
+            int a = num1 + num2 + num3;
+        }
 
     }
     

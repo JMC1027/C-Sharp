@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Class
 {
-    class Static
+   static class Static
     {
+
     }
 }

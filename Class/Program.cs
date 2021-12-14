@@ -17,11 +17,7 @@ namespace Class
             Class_Void.Math(out num1);
             Console.WriteLine("Your number divided by 2 is: " + num1 / 2);
             Console.ReadLine();
-
         }
-
-
-
 
     }
 }
