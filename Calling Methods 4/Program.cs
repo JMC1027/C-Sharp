@@ -11,13 +11,14 @@ namespace Calling_Methods_4
         static void Main(string[] args)
         {
             Math_Operations_Void Math_Operations_Void = new Math_Operations_Void();// instantiate the class 
-            Console.WriteLine("Pass in a number");
-            int num1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Pass in a 2nd number");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Pass in a number");
+            //int num1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Pass in a 2nd number");
+           // int num2 = Convert.ToInt32(Console.ReadLine());
             Math_Operations_Void.math(2, 4);
             Console.ReadLine();
             Math_Operations_Void.math(num1: 5, num2: 6);
+            Console.ReadLine();
         }
     }
 }

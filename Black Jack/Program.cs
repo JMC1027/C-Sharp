@@ -13,7 +13,7 @@ namespace Black_Jack
             Deck deck = new Deck();
             int timesShuffled = 0;
             deck = Shuffle(deck, out timesShuffled, 3);
-            
+
 
             foreach (Card card in deck.Cards)
             {
@@ -41,16 +41,16 @@ namespace Black_Jack
                 }
                 deck.Cards = TempList;
             }
-           
+
             return deck;
         }
-    //    public static Deck Shuffle(Deck deck, int times)
-    //    {
-    //        for (int i = 0; i < times; i++)
-    //        {
-    //            deck = Shuffle(deck);
-    //        }
-    //        return deck;
-    //    }
+        //    public static Deck Shuffle(Deck deck, int times)
+        //    {
+        //        for (int i = 0; i < times; i++)
+        //        {
+        //            deck = Shuffle(deck);
+        //        }
+        //        return deck;
+        //    }
     }
 }

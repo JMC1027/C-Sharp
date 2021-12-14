@@ -1,0 +1,7 @@
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Class\bin\Debug\Class.exe.config
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Class\bin\Debug\Class.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Class\bin\Debug\Class.pdb
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Class\obj\Debug\Class.csproj.AssemblyReference.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Class\obj\Debug\Class.csproj.CoreCompileInputs.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Class\obj\Debug\Class.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Class\obj\Debug\Class.pdb

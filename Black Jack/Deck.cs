@@ -27,8 +27,9 @@ namespace Black_Jack
                     Cards.Add(card);
                 }
             }
-          
+
         }
         public List<Card> Cards { get; set; }
     }
 }
+
