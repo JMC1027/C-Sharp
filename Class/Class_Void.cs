@@ -8,14 +8,18 @@ namespace Class
 {
     public class Class_Void
     {
-        public void Math(out int num1)
-        {
-             num1 = 0;  
-             int x = num1 / 2;
+        public int Math(int num1)
+        {          
+             return num1 / 2;
         }
-        public void Math(int num1, int num2, int num3)
+        public int Math(int num1, int num2, int num3)
         {
-            int a = num1 + num2 + num3;
+            return num1 + num2 + num3;
+        }
+        public int OutMethod(out int num1)
+        {
+            num1 = 100;
+            return num1 / 2;
         }
 
     }

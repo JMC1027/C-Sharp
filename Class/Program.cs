@@ -14,8 +14,10 @@ namespace Class
             Console.WriteLine("Pass in a number");
             int num1 = Convert.ToInt32(Console.ReadLine());
             Console.ReadLine();
-            Class_Void.Math(out num1);
+            Class_Void.Math(num1);
             Console.WriteLine("Your number divided by 2 is: " + num1 / 2);
+            Console.WriteLine(Class_Void.Math(10, 20, 30));
+            Console.WriteLine(Class_Void.OutMethod(out num1));
             Console.ReadLine();
         }
 
