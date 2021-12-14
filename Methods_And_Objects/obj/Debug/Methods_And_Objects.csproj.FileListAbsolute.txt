@@ -1,0 +1,6 @@
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Methods_And_Objects\bin\Debug\Methods_And_Objects.exe.config
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Methods_And_Objects\bin\Debug\Methods_And_Objects.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Methods_And_Objects\bin\Debug\Methods_And_Objects.pdb
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Methods_And_Objects\obj\Debug\Methods_And_Objects.csproj.CoreCompileInputs.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Methods_And_Objects\obj\Debug\Methods_And_Objects.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Methods_And_Objects\obj\Debug\Methods_And_Objects.pdb
