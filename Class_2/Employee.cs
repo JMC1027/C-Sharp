@@ -8,6 +8,8 @@ namespace Class_2
 {
     public class Employee: Person, IQuittable
     {
+        public object Person { get; internal set; }
+
         public override void SayName()
         {
             Console.WriteLine("Name " + FirstName + " " + LastName);
