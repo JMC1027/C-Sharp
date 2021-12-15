@@ -10,20 +10,27 @@ namespace Black_Jack
     {
         static void Main(string[] args)
         {
-            TwentyOneGame game = new TwentyOneGame();
-            game.Players = new List<string>() { "Jesse", "Jason", "Joe" };
-            game.ListPlayers();
+            //    TwentyOneGame game = new TwentyOneGame();
+            //    game.Players = new List<string>() { "Jesse", "Jason", "Joe" };
+            //    game.ListPlayers();
+            //    Console.ReadLine();
+
+            Game game = new TwentyOneGame();
+            game.Players = new List<Player>();
+            Player player = new Player();
+            player.Name = "Joseph";
+            game += player;
+            game -= player;
+
+            Deck deck = new Deck();
+            deck.Shuffle(3);
+
+            foreach (Card card in deck.Cards)
+            {
+                Console.WriteLine(card.Face + " of " + card.Suit);
+            }
+            Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
-
-            //Deck deck = new Deck();
-            //deck.Shuffle(3);
-
-            //foreach (Card card in deck.Cards)
-            //{
-            //    Console.WriteLine(card.Face + " of " + card.Suit);
-            //}
-            //Console.WriteLine(deck.Cards.Count);
-            //Console.ReadLine();
         }
 
     }
