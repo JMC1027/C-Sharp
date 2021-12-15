@@ -11,11 +11,6 @@ namespace Class_2
         public abstract void SayName();
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public static Employee operator==(Employee employee, Person person)
-        {
-            employee.Person.Equals(person);
-            return employee;
-
-        }
+       
     }
 }
