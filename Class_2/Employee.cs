@@ -14,7 +14,7 @@ namespace Class_2
         }
         public void Quit()
         {
-            Console.WriteLine("IQuit");
+            Console.WriteLine("IQuit");//Implimenting IQuit method 
         }
     }
 }

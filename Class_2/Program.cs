@@ -15,8 +15,8 @@ namespace Class_2
             Employee.LastName = "Student";
             Employee.SayName();//calling method SayName
             Console.ReadLine();
-            IQuittable quittable = new Employee();
-            quittable.Quit();
+            IQuittable quittable = new Employee();//Usiing polymorphism to create object of type IQuittable (quittable is the object)
+            quittable.Quit();//Calling the Quit() method
             Console.ReadLine();
         }
     }

@@ -9,6 +9,5 @@ namespace Class_2
     interface IQuittable
     {
         void Quit(); // interface method
-      
     }
 }
