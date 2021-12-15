@@ -10,7 +10,7 @@ namespace Class_2
     {
         public override void SayName()
         {
-
+            Console.WriteLine("Name " + FirstName + " " + LastName);
         }
     }
 }

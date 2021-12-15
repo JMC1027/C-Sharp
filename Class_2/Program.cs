@@ -10,10 +10,10 @@ namespace Class_2
     {
         static void Main(string[] args)
         {
-            Employee Employee = new Employee();
-            Employee.FirstName = "Sample";
+            Employee Employee = new Employee();//Instantiated the class
+            Employee.FirstName = "Sample";//intialized class employee object
             Employee.LastName = "Student";
-            Employee.SayName();
+            Employee.SayName();//calling method SayName
             Console.ReadLine();
         }
     }
