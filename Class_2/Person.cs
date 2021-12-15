@@ -8,6 +8,7 @@ namespace Class_2
 {
     public abstract class Person
     {
+       
         public abstract void SayName();
         public string FirstName { get; set; }
         public string LastName { get; set; }

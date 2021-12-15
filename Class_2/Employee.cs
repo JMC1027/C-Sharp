@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace Class_2
 {
-    public class Employee: Person
+    public class Employee: Person, IQuittable
     {
         public override void SayName()
         {
             Console.WriteLine("Name " + FirstName + " " + LastName);
+        }
+        public void Quit()
+        {
+            Console.WriteLine("IQuit");
         }
     }
 }

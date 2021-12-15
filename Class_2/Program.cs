@@ -15,6 +15,9 @@ namespace Class_2
             Employee.LastName = "Student";
             Employee.SayName();//calling method SayName
             Console.ReadLine();
+            IQuittable quittable = new Employee();
+            quittable.Quit();
+            Console.ReadLine();
         }
     }
 }

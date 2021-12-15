@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Polymorphism
+namespace Class_2
 {
-    class Program
+    interface IQuittable
     {
-        static void Main(string[] args)
-        {
-        }
+        void Quit(); // interface method
+      
     }
 }
