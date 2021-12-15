@@ -1,0 +1,7 @@
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Class_2\bin\Debug\Class_2.exe.config
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Class_2\bin\Debug\Class_2.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Class_2\bin\Debug\Class_2.pdb
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Class_2\obj\Debug\Class_2.csproj.AssemblyReference.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Class_2\obj\Debug\Class_2.csproj.CoreCompileInputs.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Class_2\obj\Debug\Class_2.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Class_2\obj\Debug\Class_2.pdb

@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Black_Jack
 {
-    public class Game
+    public abstract class Game
     {
         public List<string> Players { get; set; }
         public string Name { get; set; }
         public string Dealer { get; set; }
-        public void ListPlayers()
+        public abstract void Play();
+        public virtual void ListPlayers()
         {
             foreach (string player in Players)
             {
