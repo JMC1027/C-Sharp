@@ -16,14 +16,20 @@ namespace Parsing_Enums
                 string userInput = Console.ReadLine();
                 DaysOfTheWeek day = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek),userInput);
                 Console.ReadLine();
+              
             }
-            catch (FormatException)
+            catch (ArgumentException)
             {
                 Console.WriteLine("Please Enter the actual day of the week");
                 Console.ReadLine();
+                
             }
-            
-          
+            finally
+            {
+                Console.WriteLine("Correct, good job!");
+                Console.ReadLine();
+            }
+
         }
 
         public enum DaysOfTheWeek
@@ -31,7 +37,7 @@ namespace Parsing_Enums
             Monday,
             Tuesday,
             Wednsday,
-            Thurday,
+            Thursday,
             Friday,
             Saturday,
             Sunday
