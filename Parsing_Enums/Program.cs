@@ -12,15 +12,15 @@ namespace Parsing_Enums
         {
             try
             {
-                Console.WriteLine("What day of the week is it?");
+                Console.WriteLine("Pick any day of the week");
                 string userInput = Console.ReadLine();
                 DaysOfTheWeek day = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek),userInput);
                 Console.ReadLine();
               
             }
-            catch (ArgumentException)
+            catch (ArgumentException err)
             {
-                Console.WriteLine("Please Enter the actual day of the week");
+                Console.WriteLine("Please Enter the actual day of the week: " + err.Message);
                 Console.ReadLine();
                 
             }
