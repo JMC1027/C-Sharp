@@ -18,7 +18,7 @@ namespace Parsing_Enums
                 Console.ReadLine();
               
             }
-            catch (ArgumentException err)
+            catch (ArgumentException)
             {
                 Console.WriteLine("Please Enter an actual day of the week");
                 Console.ReadLine();

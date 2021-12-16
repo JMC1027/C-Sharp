@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Black_Jack
 {
-    public class Card
+    public struct Card
     {
-        internal string Face;
+        //internal string Face;
         //public Card()
         //{
         //    Suit = "Spades";
