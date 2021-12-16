@@ -10,6 +10,8 @@ namespace Lambda
     {
         static void Main(string[] args)
         {
+            List<string> Employee = new List<String>();
+
             Employee emp1 = new Employee();
             {
                 emp1.FirstName = "Joe";
@@ -70,6 +72,12 @@ namespace Lambda
                 emp10.LastName = "Jordan";
                 emp10.ID = 10;
             }
+            foreach (string Joe in Employee)
+            {
+                Console.WriteLine(Joe);
+                
+            }
+            Console.ReadLine();
 
         }
 
