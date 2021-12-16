@@ -10,7 +10,7 @@ namespace Lambda
     {
         static void Main(string[] args)
         {
-            List<string> Employee = new List<String>();
+            List<Employee> Employee = new List<Employee>();
 
             Employee emp1 = new Employee();
             {
@@ -71,8 +71,31 @@ namespace Lambda
                 emp10.FirstName = "Michael";
                 emp10.LastName = "Jordan";
                 emp10.ID = 10;
+
             }
-           
+            Employee.Add(emp1);
+            Employee.Add(emp2);
+            Employee.Add(emp3);
+            Employee.Add(emp4);
+            Employee.Add(emp5);
+            Employee.Add(emp6);
+            Employee.Add(emp7);
+            Employee.Add(emp8);
+            Employee.Add(emp9);
+            Employee.Add(emp10);
+
+            List<Employee> JoeList = new List<Employee>();
+            foreach(Employee x in Employee)
+            {
+                if (x.FirstName == "Joe")
+                {
+                    JoeList.Add(x);
+                }
+            }
+            List<Employee> NewJoeList = Employee.Where(x => x.FirstName == "Joe").ToList();
+
+            List<Employee> NewIDList = Employee.Where(z => z.ID > 5).ToList();
+ 
 
         }
 
