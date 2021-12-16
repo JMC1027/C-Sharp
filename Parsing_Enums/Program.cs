@@ -10,9 +10,20 @@ namespace Parsing_Enums
     {
         static void Main(string[] args)
         {
-            Enum day = DaysOfTheWeek.Wednsday;
-            Console.WriteLine("What day of the week is it?", day.ToString());
-        
+            try
+            {
+                Console.WriteLine("What day of the week is it?");
+                string userInput = Console.ReadLine();
+                DaysOfTheWeek day = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek),userInput);
+                Console.ReadLine();
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Please Enter the actual day of the week");
+                Console.ReadLine();
+            }
+            
+          
         }
 
         public enum DaysOfTheWeek

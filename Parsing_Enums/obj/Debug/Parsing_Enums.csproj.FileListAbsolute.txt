@@ -4,3 +4,4 @@ C:\Users\jmcke\Documents\GitHub\C-Sharp\Parsing_Enums\bin\Debug\Parsing_Enums.pd
 C:\Users\jmcke\Documents\GitHub\C-Sharp\Parsing_Enums\obj\Debug\Parsing_Enums.csproj.CoreCompileInputs.cache
 C:\Users\jmcke\Documents\GitHub\C-Sharp\Parsing_Enums\obj\Debug\Parsing_Enums.exe
 C:\Users\jmcke\Documents\GitHub\C-Sharp\Parsing_Enums\obj\Debug\Parsing_Enums.pdb
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Parsing_Enums\obj\Debug\Parsing_Enums.csproj.AssemblyReference.cache
