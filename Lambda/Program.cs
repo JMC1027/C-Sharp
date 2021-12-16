@@ -72,12 +72,7 @@ namespace Lambda
                 emp10.LastName = "Jordan";
                 emp10.ID = 10;
             }
-            foreach (string Joe in Employee)
-            {
-                Console.WriteLine(Joe);
-                
-            }
-            Console.ReadLine();
+           
 
         }
 
