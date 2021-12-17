@@ -17,25 +17,10 @@ namespace Time
             int x = Convert.ToInt32(Console.ReadLine());
             Console.ReadLine();
             TimeSpan z = new System.TimeSpan(x);
-            DateTime newTime = time.Add(x);
-            
-            //take user input and multiply it by current time 
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            //DateTime userInput = Convert.ToDateTime(Console.ReadLine());
-            //TimeSpan sum = x - userInput;
-            ////Console.WriteLine("");
-            //Console.ReadLine();
-            //take user input and display the time it ill be in that amount of hours
-            
+            DateTime y = time.AddHours(x);
+            Console.WriteLine(y);
+            Console.ReadLine();
+           
         }
     }
 }
