@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Black_Jack
+namespace Casino
 {
     class Deck
     {
@@ -12,7 +12,7 @@ namespace Black_Jack
         {
             Cards = new List<Card>();
 
-            for (int i = 0; i < 13;) 
+            for (int i = 0; i < 13; i++) 
             {
                 for(int j= 0; j < 4; j++)
                 {

@@ -24,7 +24,7 @@ namespace Black_Jack
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");
             int bank = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Hello, {0). Would you like to join a game of Black Jack?", playerName);
+            Console.WriteLine("Hello, {0}. Would you like to join a game of Black Jack?", playerName);
             string answer = Console.ReadLine().ToLower();
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {

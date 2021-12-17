@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Casino.Interfaces;
 
-namespace Black_Jack
+namespace Casino.TwentyOne
 {
     public class TwentyOneGame : Game, IWalkAway
     {
@@ -36,7 +37,7 @@ namespace Black_Jack
             for (int i = 0; i < 2; i++)
             {
                 Console.WriteLine("Dealing..");
-                foreach (Player player in Player)
+                foreach (Player player in Players)
                 {
                     Console.Write("{0}: ", player.Name);
                     Dealer.Deal(player.Hand);
@@ -72,7 +73,7 @@ namespace Black_Jack
                 while (!player.Stay)
                 {
                     Console.WriteLine("Your cards are: ");
-                    foreach (Card card in Player.Hand)
+                    foreach (Card card in player.Hand)
                     {
                         Console.WriteLine("{0} ", card.ToString());
                     }
@@ -85,7 +86,7 @@ namespace Black_Jack
                     }
                     else if (answer == "hit")
                     {
-                        Dealer.Dealer(player.Hand);
+                        Dealer.Deal(player.Hand);
                     }
                     bool busted = TwentyOneRules.IsBusted(player.Hand);
                     if (busted)

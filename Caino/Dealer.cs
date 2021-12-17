@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Black_Jack
+namespace Casino
 {
     public class Dealer
     {
         public string Name { get; set; }
-        public Deck Deck { get; set; }
+        public Deck Deck  { get; set; }
         public int Balance { get; set; }
 
         public void Deal(List<Card> Hand)
