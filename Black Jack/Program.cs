@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Black_Jack
 {
@@ -10,6 +11,15 @@ namespace Black_Jack
     {
         static void Main(string[] args)
         {
+            //string text = "Here is some text"; //User text
+            //File.WriteAllText(@"C:\Users\jmcke\Documents\GitHub\C-Sharp\Black Jack\log.txt", text); //
+            // log // (StreamWriter file = new StreaWriter("File path", true));
+            //{ file.WrtieLine(obj); }
+
+            //Console.WriteLine("Write any number");
+            //log 
+            //file.WriteLine(obj);
+            
             Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");
