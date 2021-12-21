@@ -1,5 +1,4 @@
 C:\Users\jmcke\Documents\GitHub\C-Sharp\Black Jack\bin\Debug\Black Jack.exe.config
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Black Jack\bin\Debug\Black Jack.exe
 C:\Users\jmcke\Documents\GitHub\C-Sharp\Black Jack\bin\Debug\Black Jack.pdb
 C:\Users\jmcke\Documents\GitHub\C-Sharp\Black Jack\obj\Debug\Black Jack.csproj.AssemblyReference.cache
 C:\Users\jmcke\Documents\GitHub\C-Sharp\Black Jack\obj\Debug\Black Jack.csproj.CoreCompileInputs.cache

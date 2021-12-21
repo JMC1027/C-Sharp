@@ -1,4 +1,5 @@
 ﻿using System;
+using Black_Jack;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,7 +29,7 @@ namespace Black_Jack
             string answer = Console.ReadLine().ToLower();
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
-                Player player = new Player(playerName, bank);
+                Player player = new  Player(playerName, bank);
                 Game game = new TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;

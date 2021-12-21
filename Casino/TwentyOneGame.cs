@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Casino.Interfaces;
 
-namespace Casino.TwentyOne
+namespace Casino.Black_Jack
 {
     public class TwentyOneGame : Game, IWalkAway
     {

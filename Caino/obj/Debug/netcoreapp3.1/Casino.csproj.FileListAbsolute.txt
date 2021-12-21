@@ -1,4 +1,0 @@
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Caino\obj\Debug\netcoreapp3.1\Casino.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Caino\obj\Debug\netcoreapp3.1\Casino.AssemblyInfoInputs.cache
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Caino\obj\Debug\netcoreapp3.1\Casino.AssemblyInfo.cs
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Caino\obj\Debug\netcoreapp3.1\Casino.csproj.CoreCompileInputs.cache
