@@ -1,0 +1,2 @@
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Constructor_Sub\obj\Debug\Constructor_Sub.csproj.AssemblyReference.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Constructor_Sub\obj\Debug\Constructor_Sub.csproj.CoreCompileInputs.cache
