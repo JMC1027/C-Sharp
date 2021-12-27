@@ -8,7 +8,7 @@ namespace Constructor_Sub
 {
     public class TwoVars
     {
-        public string name { get; set; }
+        public string Name { get; set; }
         public int age { get; set; }
         public TwoVars(string name) : this(name, 31)
         {
@@ -16,11 +16,11 @@ namespace Constructor_Sub
         }
         public TwoVars(string name, int age)
         {
-            this.name = name;
+            this.Name = Name;
             this.age = age;
             Console.WriteLine(name + "is your name and your age is " + age);
 
-            TwoVars vars = new TwoVars(name, age);
+            TwoVars vars = new TwoVars(Name, age);
             Console.ReadLine();
         }
     }
