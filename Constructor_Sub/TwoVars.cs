@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 
 namespace Constructor_Sub
 {
-    public class TwoVars 
+    public class TwoVars
     {
-        public string Name { get; set; }
-        public int Age { get; set; }
-
-           public TwoVars(string name) : this(name, 31);
-
+        public string name { get; set; }
+        public int age { get; set; }
+        public TwoVars(string name) : this(name, 31)
+        {
+            Console.WriteLine(name + "is your name and your default age is " + age);
+        }
         public TwoVars(string name, int age)
         {
-            this.Name = name;
-            this.Age = age;
+            this.name = name;
+            this.age = age;
+            Console.WriteLine(name + "is your name and your age is " + age);
+
+            TwoVars vars = new TwoVars(name, age);
+            Console.ReadLine();
         }
     }
 }
