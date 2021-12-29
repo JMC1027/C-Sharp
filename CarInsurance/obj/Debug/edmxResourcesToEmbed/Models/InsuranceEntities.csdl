@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="InsuranceModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityType Name="Table">
+  <EntityType Name="Insuree">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
@@ -18,6 +18,6 @@
     <Property Name="Quote" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
   </EntityType>
   <EntityContainer Name="InsuranceEntities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="Tables" EntityType="Self.Table" />
+    <EntitySet Name="Insurees" EntityType="Self.Insuree" />
   </EntityContainer>
 </Schema>

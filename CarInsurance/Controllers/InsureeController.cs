@@ -17,7 +17,7 @@ namespace CarInsurance.Controllers
         // GET: Insuree
         public ActionResult Index()
         {
-            return View(db.Tables.ToList());
+            return View(db.Insurees.ToList());
         }
 
         // GET: Insuree/Details/5
@@ -27,12 +27,12 @@ namespace CarInsurance.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Table table = db.Tables.Find(id);
-            if (table == null)
+            Insuree insuree = db.Insurees.Find(id);
+            if (insuree == null)
             {
                 return HttpNotFound();
             }
-            return View(table);
+            return View(insuree);
         }
 
         // GET: Insuree/Create
@@ -46,16 +46,77 @@ namespace CarInsurance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageTyoe,Quote")] Table table)
-        {
+        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageTyoe,Quote")] Insuree insuree)
+        { 
             if (ModelState.IsValid)
             {
-                db.Tables.Add(table);
+                const float quote = 50; //float data type with a base of 50;
+                int user = 18;
+                if (user <= 18)
+                {
+                    Console.WriteLine(quote + 100);
+                }
+
+                int userA = 25;
+                if (Enumerable.Range(1, 100).Contains(userA))
+                    if (19 <= userA && userA <= 25)
+                    {
+                        Console.WriteLine(quote + 50);
+                    }
+                int userB = 50;
+                if (Enumerable.Range(1, 100).Contains(userB))
+                    if (25 <= userB && userB <= 100)
+                    {
+                        Console.WriteLine(quote + 25);
+                    }
+                int car = 1999;
+                if (Enumerable.Range(1, 2000).Contains(car))
+                    if (1 <= car && car <= 1999)
+                    {
+                        Console.WriteLine(quote + 25);
+                    }
+                int carA = 2015;
+                if (Enumerable.Range(2015, 2022).Contains(carA))
+                    if (2015 <= carA && carA <= 2022)
+                    {
+                        Console.WriteLine(quote + 25);
+                    }
+                string carB ="Porsche";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(table);
+            return View(insuree);
         }
 
         // GET: Insuree/Edit/5
@@ -65,12 +126,12 @@ namespace CarInsurance.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Table table = db.Tables.Find(id);
-            if (table == null)
+            Insuree insuree = db.Insurees.Find(id);
+            if (insuree == null)
             {
                 return HttpNotFound();
             }
-            return View(table);
+            return View(insuree);
         }
 
         // POST: Insuree/Edit/5
@@ -78,15 +139,15 @@ namespace CarInsurance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageTyoe,Quote")] Table table)
+        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageTyoe,Quote")] Insuree insuree)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(table).State = EntityState.Modified;
+                db.Entry(insuree).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(table);
+            return View(insuree);
         }
 
         // GET: Insuree/Delete/5
@@ -96,12 +157,12 @@ namespace CarInsurance.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Table table = db.Tables.Find(id);
-            if (table == null)
+            Insuree insuree = db.Insurees.Find(id);
+            if (insuree == null)
             {
                 return HttpNotFound();
             }
-            return View(table);
+            return View(insuree);
         }
 
         // POST: Insuree/Delete/5
@@ -109,8 +170,8 @@ namespace CarInsurance.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Table table = db.Tables.Find(id);
-            db.Tables.Remove(table);
+            Insuree insuree = db.Insurees.Find(id);
+            db.Insurees.Remove(insuree);
             db.SaveChanges();
             return RedirectToAction("Index");
         }
@@ -123,5 +184,7 @@ namespace CarInsurance.Controllers
             }
             base.Dispose(disposing);
         }
-    }
+
+
+    }  
 }
