@@ -50,38 +50,56 @@ namespace CarInsurance.Controllers
         { 
             if (ModelState.IsValid)
             {
-                const float quote = 50; //float data type with a base of 50;
-                int user = 18;
-                if (user <= 18)
+                decimal Quote = 50m;
+
+                DateTime current = DateTime.Now;
+                DateTime user = insuree.DateOfBirth;
+                string diff = (current - user).ToString();
+               // int totaldays = Convert.ToInt32(diff);
+
+                
+                int userAge;
+                userAge = Convert.ToInt32(Console.ReadLine());
+                if(userAge <= 18)
                 {
-                    Console.WriteLine(quote + 100);
+                    Quote = Quote + 100;  
                 }
 
-                int userA = 25;
-                if (Enumerable.Range(1, 100).Contains(userA))
-                    if (19 <= userA && userA <= 25)
-                    {
-                        Console.WriteLine(quote + 50);
-                    }
-                int userB = 50;
-                if (Enumerable.Range(1, 100).Contains(userB))
-                    if (25 <= userB && userB <= 100)
-                    {
-                        Console.WriteLine(quote + 25);
-                    }
-                int car = 1999;
-                if (Enumerable.Range(1, 2000).Contains(car))
-                    if (1 <= car && car <= 1999)
-                    {
-                        Console.WriteLine(quote + 25);
-                    }
-                int carA = 2015;
-                if (Enumerable.Range(2015, 2022).Contains(carA))
-                    if (2015 <= carA && carA <= 2022)
-                    {
-                        Console.WriteLine(quote + 25);
-                    }
-                string carB ="Porsche";
+                if (userAge == 19 && userAge <= 25)
+                {
+                    Quote = Quote + 50;
+                }
+
+                if (userAge >= 25)
+                {
+                    Quote = Quote + 25;
+                }
+
+                int userCar;
+                userCar = Convert.ToInt32(Console.ReadLine());
+                if (userCar < 2000)
+                {
+                    Quote = Quote + 25;
+                }
+
+                if (userCar > 2015)
+                {
+                    Quote = Quote + 25;
+                }
+
+                string CarMake = "Porsche";
+                if (CarMake == "Porsche")
+                {
+                    Quote = Quote + 25;
+                }
+
+                string CarModel = "911";
+                if (CarMake == "Porsche" && CarModel == "911")
+                {
+                    Quote = Quote + 25;
+                }
+
+                int DUI =
 
 
 
@@ -93,25 +111,7 @@ namespace CarInsurance.Controllers
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    db.Insurees.Add(insuree);
+                db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
