@@ -52,64 +52,58 @@ namespace CarInsurance.Controllers
             {
                 decimal Quote = 50m;
 
-                DateTime current = DateTime.Now;
-                DateTime user = insuree.DateOfBirth;
-                string diff = (current - user).ToString();
-               // int totaldays = Convert.ToInt32(diff);
+              
 
-                
-                int userAge;
-                userAge = Convert.ToInt32(Console.ReadLine());
-                if(userAge <= 18)
+                DateTime currDate = DateTime.Now;
+                TimeSpan timeDiff = currDate.Subtract(insuree.DateOfBirth);
+                double ageDouble = timeDiff.TotalDays;
+                int age = (int)(ageDouble / 365);
+                              
+                if (age <= 18)
                 {
-                    Quote = Quote + 100;  
+                    Quote += 100;  
+                } 
+                if (age == 19 && age <= 25)
+                {
+                    Quote += 50;
+                }
+                else
+                {
+                    Quote += 25;
+                }
+   
+
+                if (insuree.CarYear < 2000 || insuree.CarYear > 2015)
+                {
+                    Quote += 25;
                 }
 
-                if (userAge == 19 && userAge <= 25)
+                if (insuree.CarMake == "Porsche")
                 {
-                    Quote = Quote + 50;
+                    Quote += 25;
+                    
+                }
+                if (insuree.CarModel == "911 Carrera")
+                {
+                    Quote += 25;
                 }
 
-                if (userAge >= 25)
+               
+                Quote += insuree.SpeedingTickets * 10;
+                if (insuree.DUI)
                 {
-                    Quote = Quote + 25;
+                    decimal addedCost = Quote * 0.25m;
+                    Quote += addedCost;
                 }
 
-                int userCar;
-                userCar = Convert.ToInt32(Console.ReadLine());
-                if (userCar < 2000)
+                if (insuree.CoverageTyoe)
                 {
-                    Quote = Quote + 25;
+                    decimal fullCoverage = Quote * 0.50m;
+                    Quote += fullCoverage;
                 }
 
-                if (userCar > 2015)
-                {
-                    Quote = Quote + 25;
-                }
-
-                string CarMake = "Porsche";
-                if (CarMake == "Porsche")
-                {
-                    Quote = Quote + 25;
-                }
-
-                string CarModel = "911";
-                if (CarMake == "Porsche" && CarModel == "911")
-                {
-                    Quote = Quote + 25;
-                }
-
-                int DUI =
-
-
-
-
-
-
-
-
-
-
+                insuree.Quote = Quote;
+                 
 
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
