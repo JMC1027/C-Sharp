@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VdG1nUy1dDVsERVO/15s/D4N/hPFLuYbd4Y/GUal0eFd6UcUHdz/uCgnJqGzS9LoMHoG2q6idk+AgStH7RlZGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jmcke\\Documents\\GitHub\\C-Sharp\\Time\\Time.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmcke\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}

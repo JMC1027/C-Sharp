@@ -1,7 +1,0 @@
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Time\bin\Debug\Time.exe.config
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Time\bin\Debug\Time.exe
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Time\bin\Debug\Time.pdb
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Time\obj\Debug\Time.csproj.AssemblyReference.cache
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Time\obj\Debug\Time.csproj.CoreCompileInputs.cache
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Time\obj\Debug\Time.exe
-C:\Users\jmcke\Documents\GitHub\C-Sharp\Time\obj\Debug\Time.pdb
