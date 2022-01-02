@@ -12,7 +12,7 @@ namespace Final
         public int StudentID { get; set; }
         public string StudentFirstName { get; set; }
         public string StudentLastName { get; set; }
-        public DateTime DateOfBirth { get; set; }
+        //public DateTime DateOfBirth { get; set; }
         public double Grade { get; set; }    
     }
 }

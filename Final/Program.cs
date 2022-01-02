@@ -13,10 +13,12 @@ namespace Final
         {
             using(var ctx = new SchoolContext())
             {
-                var stud = new Student() { StudentFirstName = "Joe", StudentLastName = "Mckenna", };
+                var stud = new Student() { StudentFirstName = "Joe", StudentLastName = "Mckenna",Grade = 95.45 };
 
                 ctx.Student.Add(stud);
                 ctx.SaveChanges();
+                Console.WriteLine(ctx);
+                Console.ReadLine();
             }
         }
 
