@@ -1,0 +1,11 @@
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Final\bin\Debug\Final.exe.config
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Final\bin\Debug\Final.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Final\bin\Debug\Final.pdb
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Final\bin\Debug\EntityFramework.dll
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Final\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Final\bin\Debug\EntityFramework.xml
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Final\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Final\obj\Debug\Final.csproj.AssemblyReference.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Final\obj\Debug\Final.csproj.CoreCompileInputs.cache
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Final\obj\Debug\Final.exe
+C:\Users\jmcke\Documents\GitHub\C-Sharp\Final\obj\Debug\Final.pdb
