@@ -1,5 +1,3 @@
-# This repo will house all of my C# projects.
- 
 ## Projects
 [Car Insurance](https://github.com/JMC1027/C-Sharp/tree/main/CarInsurance)
 
